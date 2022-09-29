@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 10px;
+    background-image: url(../img/sfondo.png);
+    background-position: center;
+    background-attachment: fixed;   
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #0099CC ,#006688 );   
+    margin-top: 5px;
+    box-shadow: 4px 5px 8px -3px black;
+}
+header div img {
+    margin-top: 20px;
+}
+header nav ul {
+    margin: o;
+}
+header nav li {
+    list-style: none;
+}
+header p {
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+nav a {
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav ul li::before {
+    content: '\21D2';
+    color: white;
+}
+nav ul li::after {
+    content: '\21D0';
+    color: white;
+}
+nav a:link {
+    text-decoration: none;
+}
+hr {
+    visibility: hidden;
+}
+/* MAIN */
+main {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 4px 5px 8px -3px black;
+}
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main article h1+p {
+    color: #94AA99;
+    padding-bottom: 15px;
+}
+.fa-solid fa-square-pen::before {
+    content: "\f14b";
+}
+.fa-clock:before {
+    content: "\f017"; 
+}
+strong {
+    color: #AA2072 ;
+    font-weight: 600;
+}
+p {
+    margin-bottom: 10px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+article ul li {
+    margin-left: 20px;
+}
+code {
+    border-radius: 5px;
+    border: solid 1px rgb(165, 165 , 165);
+    background-color: #DDDDDE;
+}
+main article h2 {
+    padding-top: 15px;
+}
+ol {
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+/* TABELLE */
+caption {
+    font-style: italic;
+    font-weight: 600;
+}
+
+table,th, td {
+    border: 0.5px solid white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+table thead tr {
+    color: white;
+    background-color: #3366CC;
+}
+tr:nth-child(even) {
+    background-color: #ececec;
+}
+
+table {
+    border-bottom: 2px solid #3366CC;
+    margin-bottom: 15px;
+}
+p a:link {
+    font-weight: 600;
+}
+iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+}
+/* FORM */
+section {
+    background-color: #DDDDDE;
+}
+section h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+section p {
+    padding: 10px;
+}
+input[type=email] {
+    border-style: none;
+    border-bottom: 1px dashed;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+input[type=email]:hover {
+    border: 1ps solid black;
+}
+button {
+    background-color: #3366CC;
+    color: white;
+    border-style: none;
+}
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+    text-align: center;
+    color: #2A3338;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+aside div {
+    background-color: #DDDDDE;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+aside div a:link {
+    color: #0099CC;
+    font-weight: 600;
+}
+
+.fa-tag:before {
+    content: "\f02b"; 
+}
+.data {
+    text-align-last: right;
+}
+
+/* FOOTER */
+footer {
+    background-image: linear-gradient(to bottom, #005566,#2A3338);
+    box-shadow: 4px 5px 8px -3px black;
+    color: white;
+}
+footer p {
+    text-align: center;
+    padding-top: 25px;
+}
+address {
+    padding: 20px;
+}
+address a:link {
+    font-weight: 600;
+    color: #AA2072;
+}
